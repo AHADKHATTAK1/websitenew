@@ -1,0 +1,26 @@
+# Shopify Theme .gitignore
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if using theme tools)
+node_modules/
+npm-debug.log*
+
+# Config files with sensitive data
+config.yml
+
+# Temporary files
+*.tmp
+*.bak
+
+# Shopify CLI
+.shopify/
