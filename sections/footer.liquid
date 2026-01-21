@@ -1,4 +1,4 @@
-    <!-- =============================== Newsletter-two Section Start ============================ -->
+﻿    <!-- =============================== Newsletter-two Section Start ============================ -->
 <div class="newsletter-two bg-black-light pb-72 pt-76 overflow-hidden" data-aos="fade-up" data-aos-duration="600">
     <div class="container container-lg">
         <div class="flex-between gap-20 flex-wrap">
@@ -242,39 +242,38 @@
     </div>
 </div>
 <!-- ==================== Footer Two End Here ==================== -->
-  
 
 
 {% schema %}
 {
-  \ name\: \Footer\,
-  \settings\: [
+  "name": "Footer",
+  "settings": [
     {
-      \type\: \textarea\,
-      \id\: \footer_copyright\,
-      \label\: \Copyright Text\,
-      \default\: \� 2024 MarketPro. All Rights Reserved.\
+      "type": "textarea",
+      "id": "footer_copyright",
+      "label": "Copyright Text",
+      "default": "Â© 2024 MarketPro. All Rights Reserved."
     },
     {
-      \type\: \url\,
-      \id\: \social_facebook\,
-      \label\: \Facebook URL\
+      "type": "url",
+      "id": "social_facebook",
+      "label": "Facebook URL"
     },
     {
-      \type\: \url\,
-      \id\: \social_instagram\,
-      \label\: \Instagram URL\
+      "type": "url",
+      "id": "social_instagram",
+      "label": "Instagram URL"
     },
     {
-      \type\: \url\,
-      \id\: \social_twitter\,
-      \label\: \Twitter URL\
+      "type": "url",
+      "id": "social_twitter",
+      "label": "Twitter URL"
     },
     {
-      \type\: \checkbox\,
-      \id\: \show_newsletter\,
-      \label\: \Show Newsletter Signup\,
-      \default\: true
+      "type": "checkbox",
+      "id": "show_newsletter",
+      "label": "Show Newsletter Signup",
+      "default": true
     }
   ]
 }
