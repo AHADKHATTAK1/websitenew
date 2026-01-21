@@ -3266,5 +3266,71 @@
 
 
 {% schema %}
-{"name": "Home Content", "settings": [], "presets": [{"name": "Home Content"}]}
+{
+  "name": "Home Content",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Banner Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Banner Background Image"
+    },
+    {
+      "type": "text",
+      "id": "banner_title",
+      "label": "Banner Title",
+      "default": "Get The Sound You Love For Less"
+    },
+    {
+      "type": "text",
+      "id": "banner_subtitle",
+      "label": "Banner Subtitle",
+      "default": "Starting at only $250"
+    },
+    {
+      "type": "url",
+      "id": "banner_button_link",
+      "label": "Banner Button Link"
+    },
+    {
+      "type": "text",
+      "id": "banner_button_text",
+      "label": "Banner Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "header",
+      "content": "Product Section Settings"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "label": "Products to Show",
+      "min": 4,
+      "max": 16,
+      "step": 2,
+      "default": 8
+    },
+    {
+      "type": "checkbox",
+      "id": "show_deal_of_week",
+      "label": "Show Deal of the Week Section",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_promotional_banners",
+      "label": "Show Promotional Banners",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home Content"
+    }
+  ]
+}
 {% endschema %}

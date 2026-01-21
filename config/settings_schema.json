@@ -1,1 +1,286 @@
-[{"name": "theme_info", "theme_name": "MarketPro", "theme_version": "1.0.0"}]
+[
+    {
+        "name": "theme_info",
+        "theme_name": "MarketPro",
+        "theme_version": "1.0.0",
+        "theme_author": "MarketPro Team",
+        "theme_documentation_url": "https://github.com/AHADKHATTAK1/websitenew",
+        "theme_support_url": "https://github.com/AHADKHATTAK1/websitenew/issues"
+    },
+    {
+        "name": "Colors",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Brand Colors"
+            },
+            {
+                "type": "color",
+                "id": "color_primary",
+                "label": "Primary Color",
+                "default": "#0989FF"
+            },
+            {
+                "type": "color",
+                "id": "color_secondary",
+                "label": "Secondary Color",
+                "default": "#6C757D"
+            },
+            {
+                "type": "color",
+                "id": "color_accent",
+                "label": "Accent Color",
+                "default": "#FF6B6B"
+            },
+            {
+                "type": "header",
+                "content": "Text Colors"
+            },
+            {
+                "type": "color",
+                "id": "color_text",
+                "label": "Text Color",
+                "default": "#333333"
+            },
+            {
+                "type": "color",
+                "id": "color_heading",
+                "label": "Heading Color",
+                "default": "#1A1A1A"
+            },
+            {
+                "type": "header",
+                "content": "Background Colors"
+            },
+            {
+                "type": "color",
+                "id": "color_background",
+                "label": "Background Color",
+                "default": "#FFFFFF"
+            },
+            {
+                "type": "color",
+                "id": "color_background_secondary",
+                "label": "Secondary Background",
+                "default": "#F7F7F7"
+            }
+        ]
+    },
+    {
+        "name": "Typography",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Font Settings"
+            },
+            {
+                "type": "font_picker",
+                "id": "font_heading",
+                "label": "Heading Font",
+                "default": "helvetica_n7"
+            },
+            {
+                "type": "font_picker",
+                "id": "font_body",
+                "label": "Body Font",
+                "default": "helvetica_n4"
+            },
+            {
+                "type": "range",
+                "id": "font_size_base",
+                "label": "Base Font Size",
+                "min": 12,
+                "max": 20,
+                "step": 1,
+                "default": 16,
+                "unit": "px"
+            }
+        ]
+    },
+    {
+        "name": "Header",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Logo Settings"
+            },
+            {
+                "type": "image_picker",
+                "id": "logo",
+                "label": "Logo Image"
+            },
+            {
+                "type": "range",
+                "id": "logo_width",
+                "label": "Logo Width",
+                "min": 50,
+                "max": 300,
+                "step": 10,
+                "default": 150,
+                "unit": "px"
+            },
+            {
+                "type": "header",
+                "content": "Announcement Bar"
+            },
+            {
+                "type": "checkbox",
+                "id": "show_announcement",
+                "label": "Show Announcement Bar",
+                "default": true
+            },
+            {
+                "type": "text",
+                "id": "announcement_text",
+                "label": "Announcement Text",
+                "default": "We deliver to you every day from 7.00 to 23.00"
+            },
+            {
+                "type": "color",
+                "id": "announcement_bg_color",
+                "label": "Announcement Background Color",
+                "default": "#0989FF"
+            }
+        ]
+    },
+    {
+        "name": "Footer",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Footer Content"
+            },
+            {
+                "type": "textarea",
+                "id": "footer_copyright",
+                "label": "Copyright Text",
+                "default": "© 2024 MarketPro. All Rights Reserved."
+            },
+            {
+                "type": "header",
+                "content": "Social Media Links"
+            },
+            {
+                "type": "url",
+                "id": "social_facebook",
+                "label": "Facebook URL"
+            },
+            {
+                "type": "url",
+                "id": "social_twitter",
+                "label": "Twitter URL"
+            },
+            {
+                "type": "url",
+                "id": "social_instagram",
+                "label": "Instagram URL"
+            },
+            {
+                "type": "url",
+                "id": "social_youtube",
+                "label": "YouTube URL"
+            },
+            {
+                "type": "url",
+                "id": "social_pinterest",
+                "label": "Pinterest URL"
+            },
+            {
+                "type": "header",
+                "content": "Newsletter"
+            },
+            {
+                "type": "checkbox",
+                "id": "show_newsletter",
+                "label": "Show Newsletter Signup",
+                "default": true
+            },
+            {
+                "type": "text",
+                "id": "newsletter_heading",
+                "label": "Newsletter Heading",
+                "default": "Subscribe to Our Newsletter"
+            }
+        ]
+    },
+    {
+        "name": "Product",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Product Display"
+            },
+            {
+                "type": "range",
+                "id": "products_per_row",
+                "label": "Products Per Row",
+                "min": 2,
+                "max": 6,
+                "step": 1,
+                "default": 4
+            },
+            {
+                "type": "range",
+                "id": "products_per_page",
+                "label": "Products Per Page",
+                "min": 12,
+                "max": 48,
+                "step": 6,
+                "default": 24
+            },
+            {
+                "type": "checkbox",
+                "id": "product_show_vendor",
+                "label": "Show Product Vendor",
+                "default": true
+            },
+            {
+                "type": "checkbox",
+                "id": "product_show_rating",
+                "label": "Show Product Rating",
+                "default": true
+            },
+            {
+                "type": "header",
+                "content": "Currency"
+            },
+            {
+                "type": "text",
+                "id": "currency_symbol",
+                "label": "Currency Symbol",
+                "default": "$"
+            }
+        ]
+    },
+    {
+        "name": "Cart",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Cart Settings"
+            },
+            {
+                "type": "select",
+                "id": "cart_type",
+                "label": "Cart Type",
+                "options": [
+                    {
+                        "value": "drawer",
+                        "label": "Drawer"
+                    },
+                    {
+                        "value": "page",
+                        "label": "Page"
+                    }
+                ],
+                "default": "drawer"
+            },
+            {
+                "type": "checkbox",
+                "id": "cart_notes_enable",
+                "label": "Enable Cart Notes",
+                "default": true
+            }
+        ]
+    }
+]
